@@ -1,2 +1,3 @@
-# mit-vaccine.github.io
-Source code for the vaccine.mit.edu website
+# Pathfinders Website
+
+This repo has the source code for the pathfinders.mit.edu website.
