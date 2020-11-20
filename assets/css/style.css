@@ -1227,14 +1227,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
+  border-bottom: 1px solid #f0f0f0;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
 
 #schedule .schedule-item:hover {
-  background-color:#d75656;
+  background-color:rgba(145, 33, 48, 0.1);
 }
 
 #schedule .schedule-item time {
@@ -1273,7 +1273,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #000000;
   margin-bottom: 0;
 }
 
