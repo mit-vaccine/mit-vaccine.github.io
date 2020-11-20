@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); */
 body {
   background: #191919;
   color: #2f3138;
@@ -983,7 +984,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Arial';
 }
 
 .medal {
