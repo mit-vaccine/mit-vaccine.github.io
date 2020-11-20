@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: gray;
 }
 
 .main-page {
@@ -589,7 +589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #191919;
+  color: #000000;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
