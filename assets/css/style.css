@@ -1151,6 +1151,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Google Form CSS
+--------------------------------------------------------------*/
+#googleForm {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
@@ -1227,7 +1234,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #191919;
+  background-color:#d75656;
 }
 
 #schedule .schedule-item time {
