@@ -537,6 +537,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@media (max-width: 1024px) {
+
+  #intro {
+    background-size: cover;
+  }
+}
+
 @media (max-width: 500px) {
   #intro {
     height: 90vh;
