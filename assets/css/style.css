@@ -548,6 +548,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #intro {
     height: 90vh;
   }
+  #about h2 {
+    text-align: center;
+  }
 } 
 
 @media (min-width: 1300px) {
