@@ -548,8 +548,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #intro {
     height: 90vh;
   }
-}
+} 
 
+@media (min-width: 1300px) {
+  #wide-container {
+    max-width: 1300px;
+  }
+} 
 @media (max-width: 400px) {
   #intro {
     height: 120vh;
@@ -852,7 +857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 1.5em;
   color: white;
 }
 
