@@ -1008,7 +1008,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 .back-to-top:hover, .back-to-top:focus, .back-to-top:active {
-  background: rgb(34, 56, 221);
+  /* background: rgb(34, 56, 221); */
   color: white;
 }
 
@@ -1877,4 +1877,133 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+/*--------------------------------------------------------------
+# Timeline Section
+--------------------------------------------------------------*/
+#timeline {
+  padding: 60px 0 60px 0;
+  background-color: rgb(94, 19, 31);
+  color: white;
+}
+
+#timeline .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#timeline .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#timeline .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #A31F34;
+  color: #ffffff;
+  padding: 10px 100px;
+}
+
+@media (max-width: 991px) {
+  #timeline .nav-tabs a {
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  #timeline .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  #timeline .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+
+#timeline .nav-tabs a.active {
+  background-color: #ffffff;
+  color: rgb(94, 19, 31);
+}
+
+#timeline .sub-heading {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  margin: 0 auto 30px auto;
+}
+
+#timeline .sub-headin {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  margin: 0 auto 30px auto;
+}
+
+@media (min-width: 991px) {
+  #timeline .sub-heading {
+    width: 75%;
+  }
+}
+
+#timeline .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#timeline .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#timeline .schedule-item:hover {
+  background-color: #191919;
+}
+
+#timeline .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#timeline .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#timeline .schedule-item .speaker img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#timeline .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#timeline .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#timeline .schedule-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
 }
