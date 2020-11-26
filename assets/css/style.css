@@ -1880,15 +1880,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Timeline Section
+# spotlight Section
 --------------------------------------------------------------*/
-#timeline {
+#spotlight {
   padding: 60px 0 60px 0;
   background-color: rgb(94, 19, 31);
   color: white;
 }
 
-#timeline .nav-tabs {
+#spotlight .nav-tabs {
   text-align: center;
   margin: auto;
   display: block;
@@ -1896,12 +1896,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#timeline .nav-tabs li {
+#spotlight .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
 }
 
-#timeline .nav-tabs a {
+#spotlight .nav-tabs a {
   border: none;
   border-radius: 50px;
   font-weight: 600;
@@ -1911,36 +1911,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 991px) {
-  #timeline .nav-tabs a {
+  #spotlight .nav-tabs a {
     padding: 8px 60px;
   }
 }
 
 @media (max-width: 767px) {
-  #timeline .nav-tabs a {
+  #spotlight .nav-tabs a {
     padding: 8px 50px;
   }
 }
 
 @media (max-width: 480px) {
-  #timeline .nav-tabs a {
+  #spotlight .nav-tabs a {
     padding: 8px 30px;
   }
 }
 
-#timeline .nav-tabs a.active {
+#spotlight .nav-tabs a.active {
   background-color: #ffffff;
   color: rgb(94, 19, 31);
 }
 
-#timeline .sub-heading {
+#spotlight .sub-heading {
   text-align: center;
   font-size: 20px;
   font-style: normal;
   margin: 0 auto 30px auto;
 }
 
-#timeline .sub-headin {
+#spotlight .sub-headin {
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -1948,32 +1948,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 991px) {
-  #timeline .sub-heading {
+  #spotlight .sub-heading {
     width: 75%;
   }
 }
 
-#timeline .tab-pane {
+#spotlight .tab-pane {
   transition: ease-in-out .2s;
 }
 
-#timeline .schedule-item {
+#spotlight .schedule-item {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
 
-#timeline .schedule-item:hover {
+#spotlight .schedule-item:hover {
   background-color: #191919;
 }
 
-#timeline .schedule-item time {
+#spotlight .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
 }
 
-#timeline .schedule-item .speaker {
+#spotlight .schedule-item .speaker {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -1982,27 +1982,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px 10px 0;
 }
 
-#timeline .schedule-item .speaker img {
+#spotlight .schedule-item .speaker img {
   height: 100%;
   transform: translateX(-50%);
   margin-left: 50%;
   transition: all ease-in-out 0.3s;
 }
 
-#timeline .schedule-item h4 {
+#spotlight .schedule-item h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#timeline .schedule-item h4 span {
+#spotlight .schedule-item h4 span {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
   font-size: 16px;
 }
 
-#timeline .schedule-item p {
+#spotlight .schedule-item p {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
