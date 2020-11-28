@@ -2025,3 +2025,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #152b79;
   margin-bottom: 0;
 }
+
+#organizers a {
+  color: white;
+  /* text-decoration: underline; */
+}
+
+#organizers li {
+  padding: 5px;
+  /* border: 1px solid white; */
+}
+
+#organizers a:hover {
+  /* font-weight: 600; */
+  text-decoration: underline;
+}
