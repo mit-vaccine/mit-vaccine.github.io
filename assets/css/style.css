@@ -634,6 +634,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+#sub-heading {
+  color: #4e4e4e;
+  font-weight: 700;
+  font-size: 25px!important;
+}
+
+@media (max-width: 991px) {
+  #sub-heading {
+    font-size: 20px!important;
+  }
+}
+
 #intro .play-btn {
   width: 94px;
   height: 94px;
