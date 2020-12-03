@@ -79,6 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   .back-to-top {
     bottom: 15px;
   }
+  #presentations, #essays {
+    text-align: left!important;
+  }
 }
 
 .back-to-top:focus {
