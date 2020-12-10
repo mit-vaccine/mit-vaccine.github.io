@@ -756,6 +756,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
+#intro .about-btn-2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  background: #A31F34;
+  color: white;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #A31F34;
+}
+
+#intro .about-btn-2:hover {
+  background: transparent;
+  color: #A31F34;
+}
+
 #tracks .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
