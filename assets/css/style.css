@@ -1153,6 +1153,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f4f7ff;
 }
 
+#speakers .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 1.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #ffffff;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  border: 2px solid #A31F34;
+  background-color:#700d1e;
+}
+
 #speakers .speaker {
   position: relative;
   overflow: hidden;
