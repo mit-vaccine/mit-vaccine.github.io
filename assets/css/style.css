@@ -1708,6 +1708,95 @@ Secondary Speakers Section
   bottom: 0;
 }
 
+
+/*--------------------------------------------------------------
+# recent-work Section
+--------------------------------------------------------------*/
+
+#recent-work {
+  padding: 60px 0 30px 0;
+  background: #f4f7ff;
+}
+
+#recent-work .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#recent-work img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+#recent-work h4 {
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px 0px;
+  text-align: center;
+}
+
+#recent-work p {
+  margin: 0px 30px;
+}
+
+#recent-work .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#recent-work .speaker .details h3, .speaker2 .details h3 {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #speakers .speaker2 .details h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+@media (max-width: 1200px) {
+  #recent-work .speaker .details h3, .speaker2 .details h3 {
+    font-size: 15px
+  }
+}
+
+#recent-work .speaker .details p {
+  color: #fff;
+  font-size: 11px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#recent-work .speaker .details .social {
+  height: 30px;
+}
+
+#recent-work .speaker .details a {
+  color: #fff;
+}
+
+#recent-work .speaker .details a:hover {
+  color: #f82249;
+}
+
+#recent-work .speaker:hover .details {
+  bottom: 0;
+}
+
 /*--------------------------------------------------------------
 # Coodination App
 --------------------------------------------------------------*/
