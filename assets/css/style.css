@@ -734,6 +734,56 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#A31F34;
 }
 
+#about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #A31F34;
+  color: white;
+  border: 2px solid white;
+}
+
+#about-btn:hover {
+  color: #A31F34;
+  background-color:white;
+  border: 2px solid #A31F34;
+}
+
+
+#schedule .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #A31F34;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+#schedule .about-btn:hover {
+  color: #A31F34;
+  background-color:rgba(0, 0, 0, 0);
+  border: 2px solid #A31F34;
+}
+
+
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -1680,7 +1730,6 @@ Secondary Speakers Section
   padding: 12px;
   padding-top: 0px;
 }
-
 #upcoming-events .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -2395,4 +2444,66 @@ Secondary Speakers Section
 #organizers a:hover {
   /* font-weight: 600; */
   text-decoration: underline;
+}
+
+
+/* upcoming-events Section
+--------------------------------*/
+#upcoming-events {
+  padding: 60px 0 40px 0;
+  background-color: rgba(145, 33, 48, 0.8);
+}
+
+#upcoming-events .box {
+  padding: 30px;
+  position: relative;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  height: 330px;
+}
+
+#upcoming-events .box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#upcoming-events .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#upcoming-events .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#upcoming-events .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#upcoming-events .title a {
+  color: #111;
+}
+
+#upcoming-events .box:hover .title a {
+  color: #A31F34;
+}
+
+#upcoming-events .description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: center;
 }
