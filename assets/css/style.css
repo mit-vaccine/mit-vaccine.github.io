@@ -1578,6 +1578,7 @@ Secondary Speakers Section
   column-count: 3;
   column-gap: 10px;
   column-rule: 1px solid rgb(255, 255, 255);
+  column-width: 300px;
 }
 
 #coordination .span-all {
@@ -1593,10 +1594,15 @@ Secondary Speakers Section
 }
 #coordination h4 {
   color:white;
+  font-weight:bold;
+}
+#coordination h5 {
+  color:black;
+  font-size:1em
 }
 
 #coordination .column {
-  height:50%;
+  height:60%;
 }
 
 #coordination .card {
@@ -1604,7 +1610,9 @@ Secondary Speakers Section
   transition: 0.3s;
   width: 100%;
   margin: 10px;
-  border-radius:5px;
+  border-radius:0px;
+  border-left-color: rgba(175, 0, 29, 0.945);
+  border-left-width: 7px;
 }
 
 #coordination .card:hover {
@@ -1615,6 +1623,7 @@ Secondary Speakers Section
 #coordination .card-content {
   padding:16px;
   color:black;
+  text-align:center;
 }
 
 #coordination .card-content a{
@@ -1622,6 +1631,7 @@ Secondary Speakers Section
   word-spacing:0.1em;
   text-align:left;
 }
+
 
 #coordination .about-btn-2 {
   font-family: "Raleway", sans-serif;
