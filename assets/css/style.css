@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-header h2 {
   font-size: 36px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-header-inv h2 {
   font-size: 36px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
@@ -1571,9 +1571,18 @@ Secondary Speakers Section
 --------------------------------------------------------------*/
 #coordination {
   background-color:rgb(94, 19, 31);
-  padding: 60px 0;
+  padding: 60px 10%; 
 }
 
+#coordination .columns{
+  column-count: 3;
+  column-gap: 10px;
+  column-rule: 1px solid rgb(255, 255, 255);
+}
+
+#coordination .span-all {
+  column-span:all;
+}
 #coordination li {
   color: white;
   font-size: larger;
@@ -1581,6 +1590,37 @@ Secondary Speakers Section
 
 #coordination h2 {
   color:white;
+}
+#coordination h4 {
+  color:white;
+}
+
+#coordination .column {
+  height:50%;
+}
+
+#coordination .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.61);
+  transition: 0.3s;
+  width: 100%;
+  margin: 10px;
+  border-radius:5px;
+}
+
+#coordination .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.699);
+  transform: scale(1.1);
+}
+
+#coordination .card-content {
+  padding:16px;
+  color:black;
+}
+
+#coordination .card-content a{
+  text-decoration:none;
+  word-spacing:0.1em;
+  text-align:left;
 }
 
 #coordination .about-btn-2 {
