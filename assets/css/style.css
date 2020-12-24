@@ -1577,7 +1577,6 @@ Secondary Speakers Section
 #coordination .columns{
   column-count: 3;
   column-gap: 10px;
-  column-rule: 1px solid rgb(255, 255, 255);
   column-width: 300px;
 }
 
@@ -1593,12 +1592,14 @@ Secondary Speakers Section
   color:white;
 }
 #coordination h4 {
-  color:white;
+  color:rgb(94, 19, 31);
   font-weight:bold;
 }
 #coordination h5 {
-  color:black;
-  font-size:1em
+  color:rgb(165, 11, 11);
+  font-size:1em;
+  text-align:left;
+  font-weight:bold;
 }
 
 #coordination .column {
@@ -1611,8 +1612,9 @@ Secondary Speakers Section
   width: 100%;
   margin: 10px;
   border-radius:0px;
-  border-left-color: rgba(175, 0, 29, 0.945);
-  border-left-width: 7px;
+  /* border-left-color: rgba(175, 0, 29, 0.945);
+  border-left-width: 7px; */
+  background-color:#f4f7ff;
 }
 
 #coordination .card:hover {
