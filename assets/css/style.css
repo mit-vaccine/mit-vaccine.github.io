@@ -1603,7 +1603,13 @@ Secondary Speakers Section
 }
 
 #coordination .column {
-  height:47%;
+  height:49%;
+}
+
+@media only screen and (max-width: 800px) {
+  #coordination .column {
+    height:auto;
+  }
 }
 
 #coordination .card {
