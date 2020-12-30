@@ -1576,7 +1576,7 @@ Secondary Speakers Section
 
 #coordination .columns{
   column-count: 3;
-  column-gap: 10px;
+  column-gap: 0px;
   column-width: 300px;
 }
 
@@ -1606,9 +1606,12 @@ Secondary Speakers Section
   height:49%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
   #coordination .column {
     height:auto;
+  }
+  #coordination .columns {
+    column-count:1;
   }
 }
 
