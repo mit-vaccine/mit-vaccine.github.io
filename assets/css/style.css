@@ -1595,6 +1595,10 @@ Secondary Speakers Section
   color:rgb(94, 19, 31);
   font-weight:bold;
 }
+#coordination h6 {
+  color:rgb(165, 11, 11);
+  padding-left:15px;
+}
 #coordination h5 {
   color:rgb(165, 11, 11);
   font-size:1em;
@@ -1603,7 +1607,7 @@ Secondary Speakers Section
 }
 
 #coordination .column {
-  height:49%;
+  height:50%;
 }
 
 @media only screen and (max-width: 1400px) {
