@@ -47,7 +47,16 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<script>
+  function hideSnackbar() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar");
 
+    // Add the "show" class to DIV
+    x.className = "hide";
+
+  }
+</script>
 <body>
 
   <!-- ======= Header ======= -->
@@ -73,6 +82,14 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- End Header -->
+
+  <a href="#schedule">    
+    <div id="snackbar" class="show" onclick="hideSnackbar()">
+      <div id="x">x</div>
+      Upcoming Event on January 12
+    </div>
+  </a>
+
 
   <!-- ======= Intro Section ======= -->
   <section id="intro">
@@ -658,7 +675,22 @@
           <h2 style="color: #191919">Vaccines for All Conference Agenda</h2>
         </div>
         <center>
-          <h5 id="jan-conf" style="font-weight: 800; font-family: Arial, Helvetica, sans-serif;">January 14, 2021</h5>
+          <h5 id="jan-conf" style="font-weight: 800; font-family: Arial, Helvetica, sans-serif;">January 19, 2021</h5>
+        </center>
+        <div class="tab-content row justify-content-center">
+          <div role="tabpanel" class="col-lg-9 tab-pane show active" id="day-1">
+            <div class="row schedule-item">
+              <div class="col-md-2"><a href="" class="about-btn" style="display:none;">&nbsp;&nbsp;</a></div>
+              <div class="col-md-10">
+                <h4>TBA</h4>
+                <p>More information to be released soon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <center>
+          <h5 id="jan-conf" style="font-weight: 800; font-family: Arial, Helvetica, sans-serif;">January 12, 2021</h5>
         </center>
         <div class="tab-content row justify-content-center">
           <div role="tabpanel" class="col-lg-9 tab-pane show active" id="day-1">
