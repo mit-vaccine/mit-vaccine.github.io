@@ -51,9 +51,10 @@
   function hideSnackbar() {
     // Get the snackbar DIV
     var x = document.getElementById("snackbar");
-
+    var link = document.getElementById("snackbar-link");
     // Add the "show" class to DIV
     x.className = "hide";
+    link.setAttribute("style", "visibility:hidden")
 
   }
 </script>
@@ -83,12 +84,11 @@
     </div>
   </header><!-- End Header -->
 
-  <a href="#schedule">    
-    <div id="snackbar" class="show" onclick="hideSnackbar()">
-      <div id="x">x</div>
-      Upcoming Event on January 12
+   
+    <div id="snackbar" class="show" >
+      <div id="x" onclick="hideSnackbar()">x</div>
+      <a id="snackbar-link" href="#schedule">Upcoming Event on January 12</a>
     </div>
-  </a>
 
 
   <!-- ======= Intro Section ======= -->

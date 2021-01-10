@@ -547,6 +547,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   top:1px;
   right:5px;
   font-size:10px;
+  cursor:pointer;
+}
+
+#snackbar a {
+  color:white;
 }
 
 /* Show the snackbar when clicking on a button (class added with JavaScript) */
