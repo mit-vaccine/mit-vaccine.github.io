@@ -2891,7 +2891,7 @@ SETTINGS
 --------------------------------*/
 #upcoming-events {
   padding: 60px 0 40px 0;
-  background-color: rgba(145, 33, 48, 0.8);
+  background-color: whitesmoke;
 }
 
 #upcoming-events .box {
