@@ -2157,70 +2157,145 @@ SETTINGS
 # Upcoming Events Section
 --------------------------------------------------------------*/
 
-#upcoming-events {
-  padding:50px;
-}
-
-#upcoming-events h2 {
-  color:black;
-  padding: 12px;
-  padding-bottom: 0px;
-}
-#upcoming-events p {
-  padding: 12px;
-  padding-top: 0px;
-}
 #upcoming-events .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 12px 20px;
   border-radius: 50px;
-  transition: 1.5s;
+  transition: 0.5s;
   line-height: 1;
-  margin: 10px;
-  color: #ffffff;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  margin: 20px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #A31F34;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+#upcoming-events .about-btn:hover {
+  color: #A31F34;
+  background-color:rgba(0, 0, 0, 0);
   border: 2px solid #A31F34;
-  background-color:#700d1e;
 }
 
-#upcoming-events .about-btn2 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
+#upcoming-events {
+  padding: 60px 0 60px 0;
+}
+
+#upcoming-events .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#upcoming-events .nav-tabs li {
   display: inline-block;
-  padding: 12px 32px;
-  transition: 1s;
-  line-height: 1;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
-  width:100%;
-  background-color:#700d1e;
+  margin-bottom: 0;
 }
 
-#upcoming-events .block {
-  padding:10px;
-  transition: 2s;
+#upcoming-events .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #191919;
+  padding: 10px 100px;
 }
 
-#upcoming-events .details {
-  height:72%;
+@media (max-width: 991px) {
+  #upcoming-events .nav-tabs a {
+    padding: 8px 60px;
+  }
 }
 
-#upcoming-events .text {
-  border: 3px #A31F34 solid;
-  border-radius: 10px;
-  height:100%;
-  background-color:rgb(255, 255, 255)
+@media (max-width: 767px) {
+  #upcoming-events .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  #upcoming-events .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+
+#upcoming-events .nav-tabs a.active {
+  background-color: #A31F34;
+  color: #191919;
+}
+
+#upcoming-events .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+@media (min-width: 991px) {
+  #upcoming-events .sub-heading {
+    width: 75%;
+  }
+}
+
+#upcoming-events .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#upcoming-events .schedule-item {
+  border-bottom: 1px solid #f0f0f0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#upcoming-events .schedule-item:hover {
+  background-color:rgba(145, 33, 48, 0.1);
+}
+
+#upcoming-events .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#upcoming-events .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#upcoming-events .schedule-item .speaker img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#upcoming-events .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#upcoming-events .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#upcoming-events .schedule-item p {
+  font-style: italic;
+  color: #000000;
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
