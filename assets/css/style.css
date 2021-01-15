@@ -2962,11 +2962,11 @@ SETTINGS
 }
 
 
-/* upcoming-events Section
---------------------------------*/
+/* upcoming-events Section ---------------- OLD VERSION
+--------------------------------
 #upcoming-events {
   padding: 60px 0 40px 0;
-  background-color: whitesmoke;
+  background-color: #f4f7ff;
 }
 
 #upcoming-events .box {
@@ -3021,4 +3021,4 @@ SETTINGS
   line-height: 28px;
   margin-bottom: 0;
   text-align: center;
-}
+} */
